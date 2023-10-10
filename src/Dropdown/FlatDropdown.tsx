@@ -24,7 +24,7 @@ const ItemSeparatorComponent = () => <Divider style={styles.divider} />;
 const FlatDropdown: React.FC<FlatDropdownProps> = forwardRef(
   (
     {
-        label
+        label,
       inputValue,
       options,
       renderOption,

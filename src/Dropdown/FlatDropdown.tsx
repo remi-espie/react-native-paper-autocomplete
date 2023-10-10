@@ -24,6 +24,7 @@ const ItemSeparatorComponent = () => <Divider style={styles.divider} />;
 const FlatDropdown: React.FC<FlatDropdownProps> = forwardRef(
   (
     {
+        label
       inputValue,
       options,
       renderOption,
@@ -45,9 +46,10 @@ const FlatDropdown: React.FC<FlatDropdownProps> = forwardRef(
     if (!renderHost) {
       renderHost = (props) => (
         <TextInput
+            label={label}
           right={
             <TextInput.Icon
-              name="arrow-down"
+              icon="arrow-down"
               color={colors.primary}
               onPress={toggleMenu}
               size={20}

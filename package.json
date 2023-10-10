@@ -26,7 +26,7 @@
     "@expo/vector-icons": "*",
     "react": "*",
     "react-native": "*",
-    "react-native-paper": "*"
+    "react-native-paper": "^5.10.6"
   },
   "devDependencies": {
     "@types/react": "~16.9.35",
@@ -34,7 +34,6 @@
     "typescript": "~4.0.0",
     "@expo/vector-icons": "^12.0.4",
     "react": "^16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-paper": "^4.7.2"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz"
   }
 }
